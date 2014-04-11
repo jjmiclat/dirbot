@@ -8,8 +8,8 @@ class DmozSpider(Spider):
     name = "dmoz"
     allowed_domains = ["dmoz.org"]
     start_urls = [
-        "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
-        "http://www.dmoz.org/Computers/Programming/Languages/Python/Resources/",
+     
+        "http://en.wikipedia.org/wiki/Goleta,_California/"
     ]
 
     def parse(self, response):
